@@ -23,9 +23,9 @@ class TfIdfCustom:
             print_tfidf_results     Prints an easily legible view of tf_idf_normalized_
 
         Notes:
-            This implimentation is meant to reflect Sklearns implementation
-            
+            This implimentation is meant to reflect Sklearns implementation using dictionaries instead of vectors
         """
+
         # Initialize corpus and word_dict
         self.corpus = corpus
         self.map_words()
@@ -229,6 +229,6 @@ class TfIdfCustom:
             print("")
         print("")
         print("")
-        
+
 def tf_idf_custom_init(corpus):
     return TfIdfCustom(corpus)
