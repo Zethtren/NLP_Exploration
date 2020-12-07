@@ -1,6 +1,6 @@
 # NLP_Exploration
 
-I will be creating and adding custome implementations of various NLP related functions here
+I will be creating and adding custom implementations of various NLP related functions here.
 Once I build enough I may even publish PyPi
 Below are links to any completed and working code
 
